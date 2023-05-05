@@ -1,0 +1,32 @@
+{
+    "name": "justbetter/statamic-environment-permissions",
+    "type": "package",
+    "description": "Disable certain permissions on specific environments",
+    "authors": [
+        {
+            "name": "Roy Duineveld",
+            "email": "royduineveld@gmail.com",
+            "homepage": "https://royduineveld.nl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "statamic/cms": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustBetter\\StatamicEnvironmentPermissions\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Environment Permissions",
+            "description": "Disable certain permissions on specific environments"
+        },
+        "laravel": {
+            "providers": [
+                "JustBetter\\StatamicEnvironmentPermissions\\StatamicEnvironmentPermissionsServiceProvider"
+            ]
+        }
+    }
+}
