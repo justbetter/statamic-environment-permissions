@@ -13,7 +13,6 @@ return [
         'configure asset containers',
         'configure collections',
         'configure fields',
-        'configure forms',
         'configure globals',
         'configure navs',
         'configure taxonomies',
